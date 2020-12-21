@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+    <link rel="stylesheet" href="../javascript/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+    <script type="text/javascript" src="assets/js/handlebars-v4.7.6.js"></script>
+
+</head>
+<body>
+  
+    <div class="marquee">
+      <h2 style="color:yellow; font-family: 'Press Start 2P'">welcome to irene's cyber space 🍓♪ welcome to irene's cyber space 🍰 ✨ welcome to irene's cyber space 🌷 🍇 welcome to irene's cyber space ヽ(✿ﾟ▽ﾟ)ノ </h2>
+<script>
+      $(function() {
+        $('.marquee')
+          .marquee({
+            allowCss3Support: true
+            , //works when allowCss3Support is set to true - for full list see http://www.w3.org/TR/2013/WD-css3-transitions-20131119/#transition-timing-function
+            css3easing: 'easeOutBounce'
+            , //requires jQuery easing plugin. Default is 'linear'
+            easing: 'easeOutBounce'
+            , //pause time before the next animation turn in milliseconds
+            delayBeforeStart: 0
+            , //'left', 'right', 'up' or 'down'
+            direction: 'left'
+            , //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: false
+            , //speed in milliseconds of the marquee in milliseconds
+            duration: 5000
+            , //gap in pixels between the tickers
+            gap: 6
+            , //on cycle pause the marquee
+            pauseOnCycle: false
+            , //on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
+            pauseOnHover: true
+            , //the marquee is visible initially positioned next to the border towards it will be moving
+            startVisible: false
+          });
+      });
+    </script>
+    </div> 
+
+    <!-- <marquee><span style="font-weight:bold;font-style:italic;font-family:Arial, Helvetica, sans-serif;font-size: 40px;color: orange;">HOW TO BE A HUMAN BEING HOW TO BE A HUMAN BEING HOW TO BE A HUMAN BEING HOW TO BE A HUMAN BEING</span></marquee> -->
+
+        <div class="option">
+      <div id = "yellow">
+          <!-- <h1 style="color:rgb(0, 255, 8); font-family:'Times New Roman', Times, serif">projects</h1> -->
+          <p> <a href="#work" style="color:blue; font-size: 30px;text-align: center; background-image: url('../javascript/assets/yellow.png'); background-position:center ;">projects</a></p>
+      </div>
+
+      <div id = "yellow2">
+        <p> <a href="../proj/index.html" style="color:blue; font-size: 30px;text-align: center; background-image: url('../javascript/assets/yellow.png'); background-position:center ;">about</a></p>
+       </div>
+      </div>
+
+
+      <script src="../javascript/build/three.js"></script>
+      <script src="../javascript/build/three.module.js"></script>
+      <script src="../javascript/script.js"></script>
+      <script src="../javascript/main.js"></script>
+
+      
+      <div id="work">
+        <div class="items"><a href="../proj/index.html"><img src="../javascript/assets/giphy-3.gif" style="width:300px"></a></div>
+        <div class="items"><img src="../javascript/assets/giphy-4.gif" style="width:300px"></div>
+        <div class="items"><img src="../javascript/assets/giphy-5.gif" style="width:300px"></div>
+        <div class="items"><img src="../javascript/assets/giphy-6.gif" style="width:300px"></div>
+        <div class="items"><img src="../javascript/assets/giphy-7.gif" style="width:300px"></div>
+        <div class="items"><img src="../javascript/assets/giphy-8.gif" style="width:250px"></div>   
+    </div>
+
+<div class="signup">
+    <h2 style="color:aquamarine">Subscribe for more info! 🍄⬇️</h2>
+
+  <table class="table">
+    <div id="chart">
+      <tr>
+          <td bgcolor="#7fffd4" align="center">User Name:</td>
+          <td bgcolor="#e9967a" align="center"><input type="text" id="name"></td>
+      </tr>
+      <tr>
+          <td bgcolor="#6495ed" align="center">Password：</td>
+          <td bgcolor="#bdb76b" align="center"><input type="password" id="password"></td>
+      </tr>
+    </div>
+    <div id="save">
+      <tr>
+          <td><input type="button" value="SIGN UP!" onclick="saveStorage()"></td>
+      </tr>
+    </div>
+  </table>
+</div>
+      
+</body>
+</html>
